@@ -1,0 +1,43 @@
+# --- Python Virtual Environments ---
+# This keeps your library files (which are huge) off GitHub
+venv/
+.venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data & Large Files ---
+# We want to keep our code on GitHub, but not the actual NFL data files
+*.csv
+*.xlsx
+*.json
+*.parquet
+data/
+raw_data/
+
+# --- Notebooks & Temp Files ---
+# If you use Jupyter Notebooks, this cleans up the "checkpoint" files
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- VS Code & System Files ---
+.vscode/
+.DS_Store
+Thumbs.db
+.env
